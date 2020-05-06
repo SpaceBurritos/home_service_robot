@@ -10,3 +10,7 @@ __Steps to initialization__
   3. While on catkin_ws type: source devel/setup.bash
   4. Then type: cd /src/scripts , and type: ./home_service.sh
 
+__Function of the Packages__
+
+
+

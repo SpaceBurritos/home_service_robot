@@ -14,8 +14,6 @@ __Packages__
 
 For this projects several ROS packages were used, they were:
 
- 1. turtlebot_gazebo: is used to link the turtlebot to a gazebo environment via a world file
- 2. gmapping: With the gmapping_demo.launch file, you can easily perform SLAM and build a map of the environment with a robot equipped with laser range finder sensors or RGB-D cameras.
-turtlebot_teleop: With the keyboard_teleop.launch file, you can manually control a robot using keyboard commands.
-turtlebot_rviz_launchers: With the view_navigation.launch file, you can load a preconfigured rviz workspace. You’ll save a lot of time by launching this file, because it will automatically load the robot model, trajectories, and map for you.
-turtlebot_gazebo: With the turtlebot_world.launch you can deploy a turtlebot in a gazebo environment by linking the world file to it.
+ 1. turtlebot_gazebo: is used to link the turtlebot to a gazebo environment with the turtlebot_world.launch file. It also includes a localization system, through the use of an Adaptive Monte Carlo Localization algorithm with the amcl_demo.launch. And it has a mapping system with the gmapping_demo launch.
+ 2. turtlebot_rviz_launchers: it loads an rviz with preconfigured settings.
+ 3. turtlebot_teleop: with the ps3_teleop.launch, xbox360_teleop.launch and keyboard_teleop.launch the turtlebot can be controlled.

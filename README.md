@@ -12,7 +12,7 @@ __Steps to initialization__
 
 __Packages__
 
-For this projects several ROS packages were used, they were:
+For this projects several ROS packages were used:
 
  1. turtlebot_gazebo: is used to link the turtlebot to a gazebo environment with the turtlebot_world.launch file. It also includes a localization system, through the use of an Adaptive Monte Carlo Localization algorithm with the amcl_demo.launch. And it has a mapping system with the gmapping_demo launch.
  2. turtlebot_rviz_launchers: it loads an rviz with preconfigured settings.
